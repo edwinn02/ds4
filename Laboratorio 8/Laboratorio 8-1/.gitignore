@@ -1,5 +1,5 @@
 # Archivos temporales de Visual Studio
-.vs/
+.vs
 *.vsidx
 *.user
 *.suo
