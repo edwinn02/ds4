@@ -19,7 +19,7 @@ namespace Laboratorio_11
 
         private void button1_Click(object sender, EventArgs e)
         {
-            lblHelloWorld.Text = "Hello World";
+            lblHelloWorld.Text = "Hello World!!";
         }
     }
 }
