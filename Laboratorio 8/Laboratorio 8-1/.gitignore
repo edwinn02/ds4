@@ -1,0 +1,68 @@
+# Archivos temporales de usuario
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Carpeta de configuración local de Visual Studio
+.vs/
+
+# Binarios de compilación
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+[Bb]inary/
+
+# Archivos de cache y logs
+*.cache
+*.log
+
+# Archivos de configuración de VS
+*.vsidx
+*.VC.db
+*.VC.opendb
+
+# Archivos de paquetes NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Archivos generados por dependencias
+project.lock.json
+project.fragment.lock.json
+
+# Archivos de publicación
+publish/
+*.pubxml
+*.publishproj
+
+# Archivos de Resharper / Rider / otros IDE
+_ReSharper*/
+*.DotSettings.user
+.idea/
+*.sln.iml
+
+# Archivos de pruebas y cobertura
+*.coverage
+*.coveragexml
+TestResults/
+
+# Archivos de backup
+*.bak
+*.tmp
+*.temp
+
+# Archivos de sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Archivos de MacOS
+.DS_Store
+
+# Archivos de Linux
+*~
