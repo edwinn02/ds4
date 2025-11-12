@@ -66,3 +66,9 @@ $RECYCLE.BIN/
 
 # Archivos de Linux
 *~
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.vsidx
