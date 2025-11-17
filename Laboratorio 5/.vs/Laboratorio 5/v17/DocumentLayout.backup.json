@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\ds4\\Laboratorio 5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{911D883B-323C-4D78-8875-EB668989AEB0}|Laboratorio5.5\\Laboratorio5.5.csproj|c:\\users\\lenovo\\source\\repos\\ds4\\laboratorio 5\\laboratorio5.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{911D883B-323C-4D78-8875-EB668989AEB0}|Laboratorio5.5\\Laboratorio5.5.csproj|solutionrelative:laboratorio5.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B4F4E61-FBA7-41E4-BDCA-AC99FA4300F0}|Laboratorio5.3\\Laboratorio5.3.csproj|c:\\users\\lenovo\\source\\repos\\ds4\\laboratorio 5\\laboratorio5.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B4F4E61-FBA7-41E4-BDCA-AC99FA4300F0}|Laboratorio5.3\\Laboratorio5.3.csproj|solutionrelative:laboratorio5.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADCB0FF5-16EE-48EF-B064-72A3B6260D6C}|Laboratorio5.2\\Laboratorio5.2.csproj|c:\\users\\lenovo\\source\\repos\\ds4\\laboratorio 5\\laboratorio5.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADCB0FF5-16EE-48EF-B064-72A3B6260D6C}|Laboratorio5.2\\Laboratorio5.2.csproj|solutionrelative:laboratorio5.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B845FF2D-7BB1-4DFB-9EE0-5ACE3986200E}|Laboratorio 5\\Laboratorio 5.csproj|c:\\users\\lenovo\\source\\repos\\ds4\\laboratorio 5\\laboratorio 5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B845FF2D-7BB1-4DFB-9EE0-5ACE3986200E}|Laboratorio 5\\Laboratorio 5.csproj|solutionrelative:laboratorio 5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A24DD484-683E-443E-9E31-4AC9C279A829}|Laboratorio5.6\\Laboratorio5.6.csproj|c:\\users\\lenovo\\source\\repos\\ds4\\laboratorio 5\\laboratorio5.6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A24DD484-683E-443E-9E31-4AC9C279A829}|Laboratorio5.6\\Laboratorio5.6.csproj|solutionrelative:laboratorio5.6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ds4\\Laboratorio 5\\Laboratorio5.6\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio5.6\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\ds4\\Laboratorio 5\\Laboratorio5.6\\Program.cs",
+              "RelativeToolTip": "Laboratorio5.6\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T01:31:17.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ds4\\Laboratorio 5\\Laboratorio5.5\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio5.5\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\ds4\\Laboratorio 5\\Laboratorio5.5\\Program.cs",
+              "RelativeToolTip": "Laboratorio5.5\\Program.cs",
+              "ViewState": "AgIAAAMAAAAA5VsvKXQ9wAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T01:30:42.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ds4\\Laboratorio 5\\Laboratorio5.3\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio5.3\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\ds4\\Laboratorio 5\\Laboratorio5.3\\Program.cs",
+              "RelativeToolTip": "Laboratorio5.3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T01:27:37.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ds4\\Laboratorio 5\\Laboratorio5.2\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio5.2\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\ds4\\Laboratorio 5\\Laboratorio5.2\\Program.cs",
+              "RelativeToolTip": "Laboratorio5.2\\Program.cs",
+              "ViewState": "AgIAAAoAAABghDR/doQqwCYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T01:24:54.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ds4\\Laboratorio 5\\Laboratorio 5\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio 5\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\ds4\\Laboratorio 5\\Laboratorio 5\\Program.cs",
+              "RelativeToolTip": "Laboratorio 5\\Program.cs",
+              "ViewState": "AgIAABAAAAAAnAbaOF7jvyQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T01:41:32.143Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

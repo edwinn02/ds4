@@ -1,0 +1,14 @@
+C:\Users\Lenovo\source\repos\laboratorio6\laboratorio6\bin\Debug\net8.0\laboratorio6.exe
+C:\Users\Lenovo\source\repos\laboratorio6\laboratorio6\bin\Debug\net8.0\laboratorio6.deps.json
+C:\Users\Lenovo\source\repos\laboratorio6\laboratorio6\bin\Debug\net8.0\laboratorio6.runtimeconfig.json
+C:\Users\Lenovo\source\repos\laboratorio6\laboratorio6\bin\Debug\net8.0\laboratorio6.dll
+C:\Users\Lenovo\source\repos\laboratorio6\laboratorio6\bin\Debug\net8.0\laboratorio6.pdb
+C:\Users\Lenovo\source\repos\laboratorio6\laboratorio6\obj\Debug\net8.0\laboratorio6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\laboratorio6\laboratorio6\obj\Debug\net8.0\laboratorio6.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\laboratorio6\laboratorio6\obj\Debug\net8.0\laboratorio6.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\laboratorio6\laboratorio6\obj\Debug\net8.0\laboratorio6.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\laboratorio6\laboratorio6\obj\Debug\net8.0\laboratorio6.dll
+C:\Users\Lenovo\source\repos\laboratorio6\laboratorio6\obj\Debug\net8.0\refint\laboratorio6.dll
+C:\Users\Lenovo\source\repos\laboratorio6\laboratorio6\obj\Debug\net8.0\laboratorio6.pdb
+C:\Users\Lenovo\source\repos\laboratorio6\laboratorio6\obj\Debug\net8.0\laboratorio6.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\laboratorio6\laboratorio6\obj\Debug\net8.0\ref\laboratorio6.dll

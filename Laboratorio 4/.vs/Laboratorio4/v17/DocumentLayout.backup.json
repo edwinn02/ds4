@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\Laboratorio4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D0102DC-FC8D-4087-99BD-403179F60604}|Laboratorio 4.4\\Laboratorio 4.4.csproj|c:\\users\\lenovo\\source\\repos\\laboratorio4\\laboratorio 4.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D0102DC-FC8D-4087-99BD-403179F60604}|Laboratorio 4.4\\Laboratorio 4.4.csproj|solutionrelative:laboratorio 4.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A803734F-FEFA-46BE-853D-D8E7EE0B20BD}|Laboratorio 4.7\\Laboratorio 4.7.csproj|c:\\users\\lenovo\\source\\repos\\laboratorio4\\laboratorio 4.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A803734F-FEFA-46BE-853D-D8E7EE0B20BD}|Laboratorio 4.7\\Laboratorio 4.7.csproj|solutionrelative:laboratorio 4.7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{961FEE00-5F74-4CBA-A406-BFF11AE203B8}|Laboratorio 4.6\\Laboratorio 4.6.csproj|c:\\users\\lenovo\\source\\repos\\laboratorio4\\laboratorio 4.6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{961FEE00-5F74-4CBA-A406-BFF11AE203B8}|Laboratorio 4.6\\Laboratorio 4.6.csproj|solutionrelative:laboratorio 4.6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AD1CA10-3F36-4312-BE31-8A2DAE78A4F6}|Laboratorio 4.5\\Laboratorio 4.5.csproj|c:\\users\\lenovo\\source\\repos\\laboratorio4\\laboratorio 4.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AD1CA10-3F36-4312-BE31-8A2DAE78A4F6}|Laboratorio 4.5\\Laboratorio 4.5.csproj|solutionrelative:laboratorio 4.5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B818DD6-EE21-44D5-A254-F1CADEC5A6B9}|Laboratorio 4.3\\Laboratorio 4.3.csproj|c:\\users\\lenovo\\source\\repos\\laboratorio4\\laboratorio 4.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B818DD6-EE21-44D5-A254-F1CADEC5A6B9}|Laboratorio 4.3\\Laboratorio 4.3.csproj|solutionrelative:laboratorio 4.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43F243D-FDE2-4F29-9B07-694458294AF8}|Laboratorio4\\Laboratorio4.csproj|c:\\users\\lenovo\\source\\repos\\laboratorio4\\laboratorio4\\laboratorio4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D43F243D-FDE2-4F29-9B07-694458294AF8}|Laboratorio4\\Laboratorio4.csproj|solutionrelative:laboratorio4\\laboratorio4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D43F243D-FDE2-4F29-9B07-694458294AF8}|Laboratorio4\\Laboratorio4.csproj|c:\\users\\lenovo\\source\\repos\\laboratorio4\\laboratorio4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D43F243D-FDE2-4F29-9B07-694458294AF8}|Laboratorio4\\Laboratorio4.csproj|solutionrelative:laboratorio4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E860745-728D-4B04-BE01-1A226C61CD67}|Laboratorio 4.1\\Laborio4.2.csproj|c:\\users\\lenovo\\source\\repos\\laboratorio4\\laboratorio 4.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E860745-728D-4B04-BE01-1A226C61CD67}|Laboratorio 4.1\\Laborio4.2.csproj|solutionrelative:laboratorio 4.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Laboratorio4\\Laboratorio 4.7\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio 4.7\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Laboratorio4\\Laboratorio 4.7\\Program.cs",
+              "RelativeToolTip": "Laboratorio 4.7\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T00:18:25.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Laboratorio4\\Laboratorio 4.6\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio 4.6\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Laboratorio4\\Laboratorio 4.6\\Program.cs",
+              "RelativeToolTip": "Laboratorio 4.6\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T00:13:19.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Laboratorio4\\Laboratorio 4.5\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio 4.5\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Laboratorio4\\Laboratorio 4.5\\Program.cs",
+              "RelativeToolTip": "Laboratorio 4.5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T00:02:47.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Laboratorio4\\Laboratorio 4.4\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio 4.4\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Laboratorio4\\Laboratorio 4.4\\Program.cs",
+              "RelativeToolTip": "Laboratorio 4.4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T23:53:47.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Laboratorio4\\Laboratorio 4.3\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio 4.3\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Laboratorio4\\Laboratorio 4.3\\Program.cs",
+              "RelativeToolTip": "Laboratorio 4.3\\Program.cs",
+              "ViewState": "AgIAABEAAACAFhPOuRkkwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T23:42:44.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Laboratorio4.csproj",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Laboratorio4\\Laboratorio4\\Laboratorio4.csproj",
+              "RelativeDocumentMoniker": "Laboratorio4\\Laboratorio4.csproj",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Laboratorio4\\Laboratorio4\\Laboratorio4.csproj",
+              "RelativeToolTip": "Laboratorio4\\Laboratorio4.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-10T23:36:05.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Laboratorio4\\Laboratorio 4.1\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio 4.1\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Laboratorio4\\Laboratorio 4.1\\Program.cs",
+              "RelativeToolTip": "Laboratorio 4.1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T23:35:31.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\Laboratorio4\\Laboratorio4\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio4\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\Laboratorio4\\Laboratorio4\\Program.cs",
+              "RelativeToolTip": "Laboratorio4\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAIAoiwsxwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T23:23:26.956Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+C:\Users\Lenovo\source\repos\ds4\Laboratorio 5\Laboratorio5.6\bin\Debug\net8.0\Laboratorio5.6.exe
+C:\Users\Lenovo\source\repos\ds4\Laboratorio 5\Laboratorio5.6\bin\Debug\net8.0\Laboratorio5.6.deps.json
+C:\Users\Lenovo\source\repos\ds4\Laboratorio 5\Laboratorio5.6\bin\Debug\net8.0\Laboratorio5.6.runtimeconfig.json
+C:\Users\Lenovo\source\repos\ds4\Laboratorio 5\Laboratorio5.6\bin\Debug\net8.0\Laboratorio5.6.dll
+C:\Users\Lenovo\source\repos\ds4\Laboratorio 5\Laboratorio5.6\bin\Debug\net8.0\Laboratorio5.6.pdb
+C:\Users\Lenovo\source\repos\ds4\Laboratorio 5\Laboratorio5.6\obj\Debug\net8.0\Laboratorio5.6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\source\repos\ds4\Laboratorio 5\Laboratorio5.6\obj\Debug\net8.0\Laboratorio5.6.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\ds4\Laboratorio 5\Laboratorio5.6\obj\Debug\net8.0\Laboratorio5.6.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\ds4\Laboratorio 5\Laboratorio5.6\obj\Debug\net8.0\Laboratorio5.6.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\ds4\Laboratorio 5\Laboratorio5.6\obj\Debug\net8.0\Laboratorio5.6.sourcelink.json
+C:\Users\Lenovo\source\repos\ds4\Laboratorio 5\Laboratorio5.6\obj\Debug\net8.0\Laboratorio5.6.dll
+C:\Users\Lenovo\source\repos\ds4\Laboratorio 5\Laboratorio5.6\obj\Debug\net8.0\refint\Laboratorio5.6.dll
+C:\Users\Lenovo\source\repos\ds4\Laboratorio 5\Laboratorio5.6\obj\Debug\net8.0\Laboratorio5.6.pdb
+C:\Users\Lenovo\source\repos\ds4\Laboratorio 5\Laboratorio5.6\obj\Debug\net8.0\Laboratorio5.6.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\ds4\Laboratorio 5\Laboratorio5.6\obj\Debug\net8.0\ref\Laboratorio5.6.dll
