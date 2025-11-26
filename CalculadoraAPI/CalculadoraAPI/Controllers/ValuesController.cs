@@ -11,14 +11,14 @@ namespace CalculadoraAPI.Controllers
     {
         public IEnumerable<string> Get()
         {
-            // Antes: return new string[] { "value1", "value2" };
+            
             var values = new List<string> { "value1", "value2" };
             return values;
         }
 
-        public string Get(int id = 0)  // parámetro opcional agregado
+        public string Get(int id = 0) 
         {
-            return $"value";  // interpolación de cadena
+            return $"value";  
         }
 
 

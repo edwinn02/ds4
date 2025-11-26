@@ -3,287 +3,100 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Web.Http;
 using CalculadoraAPI.Models;
+using CalculadoraAPI.Data;
 
 namespace CalculadoraAPI.Controllers
 {
-    [RoutePrefix("api/Calculos")]
     public class CalculosController : ApiController
     {
-        
+        // GET: api/calculos → listado completo
         [HttpGet]
+        [Route("api/calculos")]
         public IHttpActionResult GetTodosLosCalculos()
         {
-            List<Calculo> calculos = new List<Calculo>();
-            try
-            {
-                using (SqlConnection conn = DBConnection.GetConnection())
-                {
-                    conn.Open();
-                    string query = "SELECT * FROM Calculos ORDER BY FechaCalculo DESC";
-                    using (SqlCommand cmd = new SqlCommand(query, conn))
-                    {
-                        using (SqlDataReader reader = cmd.ExecuteReader())
-                        {
-                            while (reader.Read())
-                            {
-                                calculos.Add(new Calculo
-                                {
-                                    Id = Convert.ToInt32(reader["Id"]),
-                                    Numero1 = Convert.ToDouble(reader["Numero1"]),
-                                    Numero2 = Convert.ToDouble(reader["Numero2"]),
-                                    Operacion = reader["Operacion"].ToString(),
-                                    Resultado = Convert.ToDouble(reader["Resultado"]),
-                                    FechaCalculo = Convert.ToDateTime(reader["FechaCalculo"])
-                                });
-                            }
-                        }
-                    }
-                }
-                return Ok(calculos);
-            }
-            catch (Exception ex)
-            {
-                return InternalServerError(ex);
-            }
+            return Ok(GetCalculos("SELECT * FROM Calculos ORDER BY FechaCalculo DESC"));
         }
 
-     
+        // GET: api/calculos/sumas
         [HttpGet]
-        [Route("Sumas")]
+        [Route("api/calculos/sumas")]
         public IHttpActionResult GetSumas()
         {
-            List<Calculo> sumas = new List<Calculo>();
-            try
-            {
-                using (SqlConnection conn = DBConnection.GetConnection())
-                {
-                    conn.Open();
-                    string query = "SELECT * FROM Calculos WHERE Operacion = '+' ORDER BY FechaCalculo DESC";
-                    using (SqlCommand cmd = new SqlCommand(query, conn))
-                    {
-                        using (SqlDataReader reader = cmd.ExecuteReader())
-                        {
-                            while (reader.Read())
-                            {
-                                sumas.Add(new Calculo
-                                {
-                                    Id = Convert.ToInt32(reader["Id"]),
-                                    Numero1 = Convert.ToDouble(reader["Numero1"]),
-                                    Numero2 = Convert.ToDouble(reader["Numero2"]),
-                                    Operacion = reader["Operacion"].ToString(),
-                                    Resultado = Convert.ToDouble(reader["Resultado"]),
-                                    FechaCalculo = Convert.ToDateTime(reader["FechaCalculo"])
-                                });
-                            }
-                        }
-                    }
-                }
-                return Ok(sumas);
-            }
-            catch (Exception ex)
-            {
-                return InternalServerError(ex);
-            }
+            return Ok(GetCalculos("SELECT * FROM Calculos WHERE Operacion = '+' ORDER BY FechaCalculo DESC"));
         }
 
-        
+        // GET: api/calculos/restas
         [HttpGet]
-        [Route("Restas")]
+        [Route("api/calculos/restas")]
         public IHttpActionResult GetRestas()
         {
-            List<Calculo> restas = new List<Calculo>();
-            try
-            {
-                using (SqlConnection conn = DBConnection.GetConnection())
-                {
-                    conn.Open();
-                    string query = "SELECT * FROM Calculos WHERE Operacion = '-' ORDER BY FechaCalculo DESC";
-                    using (SqlCommand cmd = new SqlCommand(query, conn))
-                    {
-                        using (SqlDataReader reader = cmd.ExecuteReader())
-                        {
-                            while (reader.Read())
-                            {
-                                restas.Add(new Calculo
-                                {
-                                    Id = Convert.ToInt32(reader["Id"]),
-                                    Numero1 = Convert.ToDouble(reader["Numero1"]),
-                                    Numero2 = Convert.ToDouble(reader["Numero2"]),
-                                    Operacion = reader["Operacion"].ToString(),
-                                    Resultado = Convert.ToDouble(reader["Resultado"]),
-                                    FechaCalculo = Convert.ToDateTime(reader["FechaCalculo"])
-                                });
-                            }
-                        }
-                    }
-                }
-                return Ok(restas);
-            }
-            catch (Exception ex)
-            {
-                return InternalServerError(ex);
-            }
+            return Ok(GetCalculos("SELECT * FROM Calculos WHERE Operacion = '-' ORDER BY FechaCalculo DESC"));
         }
 
-       
+        // GET: api/calculos/multiplicaciones
         [HttpGet]
-        [Route("Multiplicaciones")]
+        [Route("api/calculos/multiplicaciones")]
         public IHttpActionResult GetMultiplicaciones()
         {
-            List<Calculo> multiplicaciones = new List<Calculo>();
-            try
-            {
-                using (SqlConnection conn = DBConnection.GetConnection())
-                {
-                    conn.Open();
-                    string query = "SELECT * FROM Calculos WHERE Operacion = '*' ORDER BY FechaCalculo DESC";
-                    using (SqlCommand cmd = new SqlCommand(query, conn))
-                    {
-                        using (SqlDataReader reader = cmd.ExecuteReader())
-                        {
-                            while (reader.Read())
-                            {
-                                multiplicaciones.Add(new Calculo
-                                {
-                                    Id = Convert.ToInt32(reader["Id"]),
-                                    Numero1 = Convert.ToDouble(reader["Numero1"]),
-                                    Numero2 = Convert.ToDouble(reader["Numero2"]),
-                                    Operacion = reader["Operacion"].ToString(),
-                                    Resultado = Convert.ToDouble(reader["Resultado"]),
-                                    FechaCalculo = Convert.ToDateTime(reader["FechaCalculo"])
-                                });
-                            }
-                        }
-                    }
-                }
-                return Ok(multiplicaciones);
-            }
-            catch (Exception ex)
-            {
-                return InternalServerError(ex);
-            }
+            return Ok(GetCalculos("SELECT * FROM Calculos WHERE Operacion = '*' ORDER BY FechaCalculo DESC"));
         }
 
-       
+        // GET: api/calculos/divisiones
         [HttpGet]
-        [Route("Divisiones")]
+        [Route("api/calculos/divisiones")]
         public IHttpActionResult GetDivisiones()
         {
-            List<Calculo> divisiones = new List<Calculo>();
-            try
-            {
-                using (SqlConnection conn = DBConnection.GetConnection())
-                {
-                    conn.Open();
-                    string query = "SELECT * FROM Calculos WHERE Operacion = '/' ORDER BY FechaCalculo DESC";
-                    using (SqlCommand cmd = new SqlCommand(query, conn))
-                    {
-                        using (SqlDataReader reader = cmd.ExecuteReader())
-                        {
-                            while (reader.Read())
-                            {
-                                divisiones.Add(new Calculo
-                                {
-                                    Id = Convert.ToInt32(reader["Id"]),
-                                    Numero1 = Convert.ToDouble(reader["Numero1"]),
-                                    Numero2 = Convert.ToDouble(reader["Numero2"]),
-                                    Operacion = reader["Operacion"].ToString(),
-                                    Resultado = Convert.ToDouble(reader["Resultado"]),
-                                    FechaCalculo = Convert.ToDateTime(reader["FechaCalculo"])
-                                });
-                            }
-                        }
-                    }
-                }
-                return Ok(divisiones);
-            }
-            catch (Exception ex)
-            {
-                return InternalServerError(ex);
-            }
+            return Ok(GetCalculos("SELECT * FROM Calculos WHERE Operacion = '/' ORDER BY FechaCalculo DESC"));
         }
 
-       
+        // GET: api/calculos/potencias
         [HttpGet]
-        [Route("Potencias")]
+        [Route("api/calculos/potencias")]
         public IHttpActionResult GetPotencias()
         {
-            List<Calculo> potencias = new List<Calculo>();
-            try
-            {
-                using (SqlConnection conn = DBConnection.GetConnection())
-                {
-                    conn.Open();
-                    string query = "SELECT * FROM Calculos WHERE Operacion = '^' ORDER BY FechaCalculo DESC";
-                    using (SqlCommand cmd = new SqlCommand(query, conn))
-                    {
-                        using (SqlDataReader reader = cmd.ExecuteReader())
-                        {
-                            while (reader.Read())
-                            {
-                                potencias.Add(new Calculo
-                                {
-                                    Id = Convert.ToInt32(reader["Id"]),
-                                    Numero1 = Convert.ToDouble(reader["Numero1"]),
-                                    Numero2 = Convert.ToDouble(reader["Numero2"]),
-                                    Operacion = reader["Operacion"].ToString(),
-                                    Resultado = Convert.ToDouble(reader["Resultado"]),
-                                    FechaCalculo = Convert.ToDateTime(reader["FechaCalculo"])
-                                });
-                            }
-                        }
-                    }
-                }
-                return Ok(potencias);
-            }
-            catch (Exception ex)
-            {
-                return InternalServerError(ex);
-            }
+            return Ok(GetCalculos("SELECT * FROM Calculos WHERE Operacion = '^' ORDER BY FechaCalculo DESC"));
         }
 
-        
+        // POST: api/calculos → calcula y guarda
         [HttpPost]
+        [Route("api/calculos")]
         public IHttpActionResult PostCalculo(Calculo calculo)
         {
             try
             {
-               
-                switch (calculo.Operacion)
+                // Validación de división por cero
+                if (calculo.Operacion == "/" && calculo.Numero2 == 0)
                 {
-                    case "+":
-                        calculo.Resultado = calculo.Numero1 + calculo.Numero2;
-                        break;
-                    case "-":
-                        calculo.Resultado = calculo.Numero1 - calculo.Numero2;
-                        break;
-                    case "*":
-                        calculo.Resultado = calculo.Numero1 * calculo.Numero2;
-                        break;
-                    case "/":
-                        if (calculo.Numero2 == 0)
-                            return BadRequest("No se puede dividir por cero");
-                        calculo.Resultado = calculo.Numero1 / calculo.Numero2;
-                        break;
-                    case "^":
-                        calculo.Resultado = Math.Pow(calculo.Numero1, calculo.Numero2);
-                        break;
-                    default:
-                        return BadRequest("Operación no válida");
+                    return BadRequest("No se puede dividir por cero");
                 }
 
+                // Calcular resultado según operación
+                switch (calculo.Operacion)
+                {
+                    case "+": calculo.Resultado = calculo.Numero1 + calculo.Numero2; break;
+                    case "-": calculo.Resultado = calculo.Numero1 - calculo.Numero2; break;
+                    case "*": calculo.Resultado = calculo.Numero1 * calculo.Numero2; break;
+                    case "/": calculo.Resultado = calculo.Numero1 / calculo.Numero2; break;
+                    case "^": calculo.Resultado = Math.Pow(calculo.Numero1, calculo.Numero2); break;
+                    default: return BadRequest("Operación inválida");
+                }
+
+                calculo.FechaCalculo = DateTime.Now;
+
+                // Guardar en la base de datos
                 using (SqlConnection conn = DBConnection.GetConnection())
                 {
                     conn.Open();
-                    string query = @"INSERT INTO Calculos (Numero1, Numero2, Operacion, Resultado) 
-                                   VALUES (@Numero1, @Numero2, @Operacion, @Resultado)";
-
+                    string query = @"INSERT INTO Calculos (Numero1, Numero2, Operacion, Resultado, FechaCalculo)
+                                     VALUES (@Numero1, @Numero2, @Operacion, @Resultado, @FechaCalculo)";
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
                         cmd.Parameters.AddWithValue("@Numero1", calculo.Numero1);
                         cmd.Parameters.AddWithValue("@Numero2", calculo.Numero2);
                         cmd.Parameters.AddWithValue("@Operacion", calculo.Operacion);
                         cmd.Parameters.AddWithValue("@Resultado", calculo.Resultado);
+                        cmd.Parameters.AddWithValue("@FechaCalculo", calculo.FechaCalculo);
+
                         cmd.ExecuteNonQuery();
                     }
                 }
@@ -294,6 +107,33 @@ namespace CalculadoraAPI.Controllers
             {
                 return InternalServerError(ex);
             }
+        }
+
+        // Método auxiliar para evitar repetir código
+        private List<Calculo> GetCalculos(string query)
+        {
+            var calculos = new List<Calculo>();
+            using (SqlConnection conn = DBConnection.GetConnection())
+            {
+                conn.Open();
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        calculos.Add(new Calculo
+                        {
+                            Id = Convert.ToInt32(reader["Id"]),
+                            Numero1 = Convert.ToDouble(reader["Numero1"]),
+                            Numero2 = Convert.ToDouble(reader["Numero2"]),
+                            Operacion = reader["Operacion"].ToString(),
+                            Resultado = Convert.ToDouble(reader["Resultado"]),
+                            FechaCalculo = Convert.ToDateTime(reader["FechaCalculo"])
+                        });
+                    }
+                }
+            }
+            return calculos;
         }
     }
 }
