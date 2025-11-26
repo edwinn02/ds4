@@ -9,7 +9,7 @@ namespace CalculadoraAPI.Controllers
 {
     public class CalculosController : ApiController
     {
-        // GET: api/calculos → listado completo
+        
         [HttpGet]
         [Route("api/calculos")]
         public IHttpActionResult GetTodosLosCalculos()
@@ -17,7 +17,7 @@ namespace CalculadoraAPI.Controllers
             return Ok(GetCalculos("SELECT * FROM Calculos ORDER BY FechaCalculo DESC"));
         }
 
-        // GET: api/calculos/sumas
+        
         [HttpGet]
         [Route("api/calculos/sumas")]
         public IHttpActionResult GetSumas()
@@ -25,7 +25,7 @@ namespace CalculadoraAPI.Controllers
             return Ok(GetCalculos("SELECT * FROM Calculos WHERE Operacion = '+' ORDER BY FechaCalculo DESC"));
         }
 
-        // GET: api/calculos/restas
+        
         [HttpGet]
         [Route("api/calculos/restas")]
         public IHttpActionResult GetRestas()
@@ -33,7 +33,7 @@ namespace CalculadoraAPI.Controllers
             return Ok(GetCalculos("SELECT * FROM Calculos WHERE Operacion = '-' ORDER BY FechaCalculo DESC"));
         }
 
-        // GET: api/calculos/multiplicaciones
+     
         [HttpGet]
         [Route("api/calculos/multiplicaciones")]
         public IHttpActionResult GetMultiplicaciones()
@@ -41,7 +41,7 @@ namespace CalculadoraAPI.Controllers
             return Ok(GetCalculos("SELECT * FROM Calculos WHERE Operacion = '*' ORDER BY FechaCalculo DESC"));
         }
 
-        // GET: api/calculos/divisiones
+      
         [HttpGet]
         [Route("api/calculos/divisiones")]
         public IHttpActionResult GetDivisiones()
@@ -49,7 +49,6 @@ namespace CalculadoraAPI.Controllers
             return Ok(GetCalculos("SELECT * FROM Calculos WHERE Operacion = '/' ORDER BY FechaCalculo DESC"));
         }
 
-        // GET: api/calculos/potencias
         [HttpGet]
         [Route("api/calculos/potencias")]
         public IHttpActionResult GetPotencias()
@@ -57,7 +56,7 @@ namespace CalculadoraAPI.Controllers
             return Ok(GetCalculos("SELECT * FROM Calculos WHERE Operacion = '^' ORDER BY FechaCalculo DESC"));
         }
 
-        // POST: api/calculos → calcula y guarda
+       
         [HttpPost]
         [Route("api/calculos")]
         public IHttpActionResult PostCalculo(Calculo calculo)
