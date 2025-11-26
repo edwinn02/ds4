@@ -6,9 +6,9 @@ using CalculadoraAPI.Areas.HelpPage.Models;
 
 namespace CalculadoraAPI.Areas.HelpPage.Controllers
 {
-    /// <summary>
-    /// The controller that will handle requests for the help page.
-    /// </summary>
+
+    /// Maneg=jar request del help page
+    
     public class HelpController : Controller
     {
         private const string ErrorViewName = "Error";

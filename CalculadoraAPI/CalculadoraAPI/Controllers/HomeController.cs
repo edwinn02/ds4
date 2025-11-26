@@ -10,7 +10,7 @@ namespace CalculadoraAPI.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "Home pagel";
 
             return View();
         }

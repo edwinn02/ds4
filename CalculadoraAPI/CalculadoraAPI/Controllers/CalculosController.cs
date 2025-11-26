@@ -9,7 +9,7 @@ namespace CalculadoraAPI.Controllers
     [RoutePrefix("api/Calculos")]
     public class CalculosController : ApiController
     {
-        // GET: api/Calculos
+        
         [HttpGet]
         public IHttpActionResult GetTodosLosCalculos()
         {
@@ -47,7 +47,7 @@ namespace CalculadoraAPI.Controllers
             }
         }
 
-        // GET: api/Calculos/Sumas
+     
         [HttpGet]
         [Route("Sumas")]
         public IHttpActionResult GetSumas()
@@ -86,7 +86,7 @@ namespace CalculadoraAPI.Controllers
             }
         }
 
-        // GET: api/Calculos/Restas
+        
         [HttpGet]
         [Route("Restas")]
         public IHttpActionResult GetRestas()
@@ -125,7 +125,7 @@ namespace CalculadoraAPI.Controllers
             }
         }
 
-        // GET: api/Calculos/Multiplicaciones
+       
         [HttpGet]
         [Route("Multiplicaciones")]
         public IHttpActionResult GetMultiplicaciones()
@@ -164,7 +164,7 @@ namespace CalculadoraAPI.Controllers
             }
         }
 
-        // GET: api/Calculos/Divisiones
+       
         [HttpGet]
         [Route("Divisiones")]
         public IHttpActionResult GetDivisiones()
@@ -203,7 +203,7 @@ namespace CalculadoraAPI.Controllers
             }
         }
 
-        // GET: api/Calculos/Potencias
+       
         [HttpGet]
         [Route("Potencias")]
         public IHttpActionResult GetPotencias()
@@ -242,13 +242,13 @@ namespace CalculadoraAPI.Controllers
             }
         }
 
-        // POST: api/Calculos
+        
         [HttpPost]
         public IHttpActionResult PostCalculo(Calculo calculo)
         {
             try
             {
-                // Calcular el resultado según la operación
+               
                 switch (calculo.Operacion)
                 {
                     case "+":

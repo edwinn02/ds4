@@ -5,15 +5,10 @@ using System.Net.Http.Headers;
 
 namespace CalculadoraAPI.Areas.HelpPage
 {
-    /// <summary>
-    /// This is used to identify the place where the sample should be applied.
-    /// </summary>
+    
     public class HelpPageSampleKey
     {
-        /// <summary>
-        /// Creates a new <see cref="HelpPageSampleKey"/> based on media type.
-        /// </summary>
-        /// <param name="mediaType">The media type.</param>
+        
         public HelpPageSampleKey(MediaTypeHeaderValue mediaType)
         {
             if (mediaType == null)
@@ -27,11 +22,6 @@ namespace CalculadoraAPI.Areas.HelpPage
             ParameterNames = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         }
 
-        /// <summary>
-        /// Creates a new <see cref="HelpPageSampleKey"/> based on media type and CLR type.
-        /// </summary>
-        /// <param name="mediaType">The media type.</param>
-        /// <param name="type">The CLR type.</param>
         public HelpPageSampleKey(MediaTypeHeaderValue mediaType, Type type)
             : this(mediaType)
         {
@@ -43,13 +33,7 @@ namespace CalculadoraAPI.Areas.HelpPage
             ParameterType = type;
         }
 
-        /// <summary>
-        /// Creates a new <see cref="HelpPageSampleKey"/> based on <see cref="SampleDirection"/>, controller name, action name and parameter names.
-        /// </summary>
-        /// <param name="sampleDirection">The <see cref="SampleDirection"/>.</param>
-        /// <param name="controllerName">Name of the controller.</param>
-        /// <param name="actionName">Name of the action.</param>
-        /// <param name="parameterNames">The parameter names.</param>
+      
         public HelpPageSampleKey(SampleDirection sampleDirection, string controllerName, string actionName, IEnumerable<string> parameterNames)
         {
             if (!Enum.IsDefined(typeof(SampleDirection), sampleDirection))
@@ -75,15 +59,7 @@ namespace CalculadoraAPI.Areas.HelpPage
             SampleDirection = sampleDirection;
         }
 
-        /// <summary>
-        /// Creates a new <see cref="HelpPageSampleKey"/> based on media type, <see cref="SampleDirection"/>, controller name, action name and parameter names.
-        /// </summary>
-        /// <param name="mediaType">The media type.</param>
-        /// <param name="sampleDirection">The <see cref="SampleDirection"/>.</param>
-        /// <param name="controllerName">Name of the controller.</param>
-        /// <param name="actionName">Name of the action.</param>
-        /// <param name="parameterNames">The parameter names.</param>
-        public HelpPageSampleKey(MediaTypeHeaderValue mediaType, SampleDirection sampleDirection, string controllerName, string actionName, IEnumerable<string> parameterNames)
+         public HelpPageSampleKey(MediaTypeHeaderValue mediaType, SampleDirection sampleDirection, string controllerName, string actionName, IEnumerable<string> parameterNames)
             : this(sampleDirection, controllerName, actionName, parameterNames)
         {
             if (mediaType == null)
@@ -94,40 +70,16 @@ namespace CalculadoraAPI.Areas.HelpPage
             MediaType = mediaType;
         }
 
-        /// <summary>
-        /// Gets the name of the controller.
-        /// </summary>
-        /// <value>
-        /// The name of the controller.
-        /// </value>
-        public string ControllerName { get; private set; }
+          public string ControllerName { get; private set; }
 
-        /// <summary>
-        /// Gets the name of the action.
-        /// </summary>
-        /// <value>
-        /// The name of the action.
-        /// </value>
-        public string ActionName { get; private set; }
+         public string ActionName { get; private set; }
 
-        /// <summary>
-        /// Gets the media type.
-        /// </summary>
-        /// <value>
-        /// The media type.
-        /// </value>
-        public MediaTypeHeaderValue MediaType { get; private set; }
+         public MediaTypeHeaderValue MediaType { get; private set; }
 
-        /// <summary>
-        /// Gets the parameter names.
-        /// </summary>
         public HashSet<string> ParameterNames { get; private set; }
 
         public Type ParameterType { get; private set; }
 
-        /// <summary>
-        /// Gets the <see cref="SampleDirection"/>.
-        /// </summary>
         public SampleDirection? SampleDirection { get; private set; }
 
         public override bool Equals(object obj)
