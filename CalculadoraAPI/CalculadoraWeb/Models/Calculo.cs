@@ -1,0 +1,11 @@
+﻿namespace CalculadoraWeb.API.Models
+{
+    public class Calculo
+    {
+        public int Id { get; set; }
+        public double Numero1 { get; set; }
+        public double Numero2 { get; set; }
+        public string Operacion { get; set; }
+        public double Resultado { get; set; }
+    }
+}
