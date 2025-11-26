@@ -5,8 +5,6 @@ VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraAPI", "CalculadoraAPI\CalculadoraAPI.csproj", "{740C1DC9-191F-4603-9315-99EE6559997E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraWeb", "CalculadoraWeb\CalculadoraWeb.csproj", "{5D2D64ED-AEBE-44F7-8248-BF7A572B69C6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +15,11 @@ Global
 		{740C1DC9-191F-4603-9315-99EE6559997E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{740C1DC9-191F-4603-9315-99EE6559997E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{740C1DC9-191F-4603-9315-99EE6559997E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5D2D64ED-AEBE-44F7-8248-BF7A572B69C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D2D64ED-AEBE-44F7-8248-BF7A572B69C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D2D64ED-AEBE-44F7-8248-BF7A572B69C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D2D64ED-AEBE-44F7-8248-BF7A572B69C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EB40AFB-D445-4142-B3E1-B7C9C08B66B4}
 	EndGlobalSection
 EndGlobal

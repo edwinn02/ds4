@@ -1,4 +1,4 @@
-﻿namespace CalculadoraWeb.API.Models
+﻿namespace CalculadoraAPI.Models
 {
     public class Calculo
     {
