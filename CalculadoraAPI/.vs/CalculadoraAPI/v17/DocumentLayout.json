@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sarag\\source\\repos\\edwin02\\CalculadoraAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{740C1DC9-191F-4603-9315-99EE6559997E}|CalculadoraAPI\\CalculadoraAPI.csproj|c:\\users\\sarag\\source\\repos\\edwin02\\calculadoraapi\\calculadoraapi\\controllers\\calculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{740C1DC9-191F-4603-9315-99EE6559997E}|CalculadoraAPI\\CalculadoraAPI.csproj|solutionrelative:calculadoraapi\\controllers\\calculoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{740C1DC9-191F-4603-9315-99EE6559997E}|CalculadoraAPI\\CalculadoraAPI.csproj|C:\\Users\\sarag\\source\\repos\\edwin02\\CalculadoraAPI\\calculadoraapi\\data\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{740C1DC9-191F-4603-9315-99EE6559997E}|CalculadoraAPI\\CalculadoraAPI.csproj|solutionrelative:calculadoraapi\\data\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculosController.cs",
+              "DocumentMoniker": "C:\\Users\\sarag\\source\\repos\\edwin02\\CalculadoraAPI\\CalculadoraAPI\\Controllers\\CalculosController.cs",
+              "RelativeDocumentMoniker": "CalculadoraAPI\\Controllers\\CalculosController.cs",
+              "ToolTip": "C:\\Users\\sarag\\source\\repos\\edwin02\\CalculadoraAPI\\CalculadoraAPI\\Controllers\\CalculosController.cs",
+              "RelativeToolTip": "CalculadoraAPI\\Controllers\\CalculosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T02:10:49.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "C:\\Users\\sarag\\source\\repos\\edwin02\\CalculadoraAPI\\CalculadoraAPI\\Data\\DBConnection.cs",
+              "RelativeDocumentMoniker": "CalculadoraAPI\\Data\\DBConnection.cs",
+              "ToolTip": "C:\\Users\\sarag\\source\\repos\\edwin02\\CalculadoraAPI\\CalculadoraAPI\\Data\\DBConnection.cs",
+              "RelativeToolTip": "CalculadoraAPI\\Data\\DBConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T23:27:18.228Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
