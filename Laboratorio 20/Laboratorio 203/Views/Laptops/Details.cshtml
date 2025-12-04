@@ -1,0 +1,20 @@
+﻿@@model Laboratorio203.Models.Laptop
+@{
+    ViewBag.Title = "Detalle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Detalle de producto</h2>
+<dl class="dl-horizontal">
+    <dt>Id</dt>
+    <dd>@Model.Id</dd>
+    <dt>Nombre</dt>
+    <dd>@Model.Nombre</dd>
+    <dt>Precio</dt>
+    <dd>@Model.Precio</dd>
+    <dt>Stock</dt>
+    <dd>@Model.Stock</dd>
+</dl>
+<div>
+    <a class="btn btn-warning" href="@Url.Action("Edit", new { id = Model.Id })">Editar</a>
+    <a class="btn btn-default" href="@Url.Action("Index")">Salir</a>
+</div>

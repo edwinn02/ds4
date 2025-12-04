@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Resultado matriz";
+    int n = (int)ViewBag.N;
+    int[,] matriz = (int[,])ViewBag.Matriz;
+}
+<h2>Matriz @n x @n (diagonal inversa)</h2>
+
+<table border="1" cellspacing="0" cellpadding="6">
+    @for (int i = 0; i < n; i++)
+    {
+        <tr>
+            @for (int j = 0; j < n; j++)
+            {
+                <td>@matriz[i, j]</td>
+            }
+        </tr>
+    }
+</table>
+
+<p><a href="/Matrix">Volver</a></p>

@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Matriz N x N";
+}
+<h2>Matriz con diagonal inversa en 1</h2>
+
+@if (ViewBag.Error != null)
+{
+    <p style="color:red">@ViewBag.Error</p>
+}
+
+<form method="post" action="/Matrix/Result">
+    <label for="n">Dimensión N:</label>
+    <input type="number" id="n" name="n" min="1" max="200" required />
+    <button type="submit">Generar</button>
+</form>

@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Laboratorio 201\\Laboratorio 201.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Laboratorio 202\\Laboratorio 202.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Laboratorio 203\\Laboratorio 203.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+﻿@model Laboratorio203.Models.Laptop
+@{
+    ViewBag.Title = "Eliminar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Eliminar producto</h2>
+<p>¿Confirmas eliminar el registro?</p>
+
+<dl class="dl-horizontal">
+    <dt>Id</dt>
+    <dd>@Model.Id</dd>
+    <dt>Nombre</dt>
+    <dd>@Model.Nombre</dd>
+    <dt>Precio</dt>
+    <dd>@Model.Precio</dd>
+    <dt>Stock</dt>
+    <dd>@Model.Stock</dd>
+</dl>
+
+@using (Html.BeginForm("Delete", "Laptops", FormMethod.Post, new { @id = "frmDel" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(m => m.Id)
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a class="btn btn-default" href="@Url.Action("Index")">Cancelar</a>
+}

@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Resultados";
+    var numero = (int)ViewBag.Numero;
+    var resultados = (System.Collections.Generic.List<string>)ViewBag.Resultados;
+}
+<h2>Tabla de multiplicar de @numero (1 a 25)</h2>
+
+<ul>
+    @foreach (var r in resultados)
+    {
+        <li>@r</li>
+    }
+</ul>
+
+<p><a href="/Values">Volver</a></p>
