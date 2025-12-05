@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Parcial3DBModelStoreContainer" CdmEntityContainer="Parcial3DBEntities1">
+    <EntitySetMapping Name="EstadoSolicitud">
+      <EntityTypeMapping TypeName="Parcial3DBModel.EstadoSolicitud">
+        <MappingFragment StoreEntitySet="EstadoSolicitud">
+          <ScalarProperty Name="EstadoSolicitudId" ColumnName="EstadoSolicitudId" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Solicitante">
+      <EntityTypeMapping TypeName="Parcial3DBModel.Solicitante">
+        <MappingFragment StoreEntitySet="Solicitante">
+          <ScalarProperty Name="SolicitanteId" ColumnName="SolicitanteId" />
+          <ScalarProperty Name="TipoDocumento" ColumnName="TipoDocumento" />
+          <ScalarProperty Name="NumeroDocumento" ColumnName="NumeroDocumento" />
+          <ScalarProperty Name="Nombres" ColumnName="Nombres" />
+          <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="Nacionalidad" ColumnName="Nacionalidad" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SolicitudPasaporte">
+      <EntityTypeMapping TypeName="Parcial3DBModel.SolicitudPasaporte">
+        <MappingFragment StoreEntitySet="SolicitudPasaporte">
+          <ScalarProperty Name="SolicitudId" ColumnName="SolicitudId" />
+          <ScalarProperty Name="SolicitanteId" ColumnName="SolicitanteId" />
+          <ScalarProperty Name="FechaSolicitud" ColumnName="FechaSolicitud" />
+          <ScalarProperty Name="TipoSolicitud" ColumnName="TipoSolicitud" />
+          <ScalarProperty Name="EstadoSolicitudId" ColumnName="EstadoSolicitudId" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

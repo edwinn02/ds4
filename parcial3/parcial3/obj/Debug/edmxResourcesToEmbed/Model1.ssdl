@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Parcial3DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="EstadoSolicitud">
+    <Key>
+      <PropertyRef Name="EstadoSolicitudId" />
+    </Key>
+    <Property Name="EstadoSolicitudId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Solicitante">
+    <Key>
+      <PropertyRef Name="SolicitanteId" />
+    </Key>
+    <Property Name="SolicitanteId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TipoDocumento" Type="varchar" MaxLength="20" />
+    <Property Name="NumeroDocumento" Type="varchar" MaxLength="20" />
+    <Property Name="Nombres" Type="varchar" MaxLength="100" />
+    <Property Name="Apellidos" Type="varchar" MaxLength="100" />
+    <Property Name="FechaNacimiento" Type="date" />
+    <Property Name="Nacionalidad" Type="varchar" MaxLength="50" />
+    <Property Name="Direccion" Type="varchar" MaxLength="200" />
+    <Property Name="Telefono" Type="varchar" MaxLength="20" />
+    <Property Name="Correo" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="SolicitudPasaporte">
+    <Key>
+      <PropertyRef Name="SolicitudId" />
+    </Key>
+    <Property Name="SolicitudId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SolicitanteId" Type="int" />
+    <Property Name="FechaSolicitud" Type="datetime" />
+    <Property Name="TipoSolicitud" Type="varchar" MaxLength="20" />
+    <Property Name="EstadoSolicitudId" Type="int" />
+    <Property Name="Observaciones" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <Association Name="FK__Solicitud__Estad__29572725">
+    <End Role="EstadoSolicitud" Type="Self.EstadoSolicitud" Multiplicity="0..1" />
+    <End Role="SolicitudPasaporte" Type="Self.SolicitudPasaporte" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EstadoSolicitud">
+        <PropertyRef Name="EstadoSolicitudId" />
+      </Principal>
+      <Dependent Role="SolicitudPasaporte">
+        <PropertyRef Name="EstadoSolicitudId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Solicitud__Solic__286302EC">
+    <End Role="Solicitante" Type="Self.Solicitante" Multiplicity="0..1" />
+    <End Role="SolicitudPasaporte" Type="Self.SolicitudPasaporte" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Solicitante">
+        <PropertyRef Name="SolicitanteId" />
+      </Principal>
+      <Dependent Role="SolicitudPasaporte">
+        <PropertyRef Name="SolicitanteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Parcial3DBModelStoreContainer">
+    <EntitySet Name="EstadoSolicitud" EntityType="Self.EstadoSolicitud" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Solicitante" EntityType="Self.Solicitante" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SolicitudPasaporte" EntityType="Self.SolicitudPasaporte" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Solicitud__Estad__29572725" Association="Self.FK__Solicitud__Estad__29572725">
+      <End Role="EstadoSolicitud" EntitySet="EstadoSolicitud" />
+      <End Role="SolicitudPasaporte" EntitySet="SolicitudPasaporte" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Solicitud__Solic__286302EC" Association="Self.FK__Solicitud__Solic__286302EC">
+      <End Role="Solicitante" EntitySet="Solicitante" />
+      <End Role="SolicitudPasaporte" EntitySet="SolicitudPasaporte" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
